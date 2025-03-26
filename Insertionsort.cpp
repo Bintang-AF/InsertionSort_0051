@@ -1,5 +1,5 @@
 #include <iostream>
-Using namespace std;
+using namespace std;
 
 int arr[20]; //membuat array dengan panjang data 20
 int n; // membuat variable inputan n
@@ -20,4 +20,9 @@ void input()
             cout << "\narray yang anda masukkan maksimal 20 elemen.\n";//menampilkan pesan jika data lebih dari 20
         }
     }
+    cout << endl; //membuat jarak perbaris program
+    cout << "=======================" << endl; //membuat tampilan susunan data element array
+    cout << "masukkan element array" << endl;
+    cout << "=======================" << endl;
+
 }
