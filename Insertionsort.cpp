@@ -70,4 +70,12 @@ void display()
         }
         cout << endl; // output baris kosong
     }
-    
+
+   int main()
+   {
+    input();
+    insertionsort();
+    display();
+    system("pause");
+    return 0;
+   } 
